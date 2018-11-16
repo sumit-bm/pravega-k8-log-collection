@@ -10,6 +10,7 @@ The shell script (`pravega-k8s-log.sh`) which will do below stuff:
 
 Sample Usage:
 `# chmod +x pravega-k8s-log.sh`
+
 `# ./pravega-k8s-log.sh`
 
 Logs collected in /tmp/logdir
@@ -18,5 +19,5 @@ Sample log output:
 /tmp/logdir/pravega-k8s-logging-2018-11-14-11-14-23.tgz
 
 Note:
-Script assumes valid kubernetes configuration present in the node where it is invoked.
-`kubectl` should be present in the system
+1. Script assumes valid kubernetes configuration present in the node where it is invoked.
+2. `kubectl` should be present in the system
