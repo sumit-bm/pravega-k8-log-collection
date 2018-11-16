@@ -9,6 +9,7 @@ The shell script (`pravega-k8s-log.sh`) which will do below stuff:
 5. Create a tarball with time stamp under `/tmp/logdir`
 
 Sample Usage:
+
 `# chmod +x pravega-k8s-log.sh`
 
 `# ./pravega-k8s-log.sh`
