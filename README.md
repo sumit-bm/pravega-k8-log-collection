@@ -26,3 +26,4 @@ Note:
 1. Script assumes valid kubernetes configuration present in the node where it is invoked.
 2. `kubectl` should be present in the system.
 3. Doesn't handle logs from `evicted` pods and collect only describe output for those.
+4. This script will work only on linux machine
